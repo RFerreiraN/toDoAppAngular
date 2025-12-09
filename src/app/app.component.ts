@@ -31,5 +31,4 @@ export class AppComponent implements OnInit{
     this._tareasService.deleteTarea(index)
     this.listaTareas = this._tareasService.getTareas()
   }
-
 }
